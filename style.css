@@ -23,12 +23,17 @@ body {
 main {
   box-sizing: border-box;
   background-color: white;
-  max-width: 1000px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
   min-height: 400px;
   padding: 15px 70px;
   border-radius: 10px;
+  min-height: 90vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
@@ -72,11 +77,12 @@ header > a > img {
 main > section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
 }
 
 main > section > div:first-child {
-  max-width: 400px;
+  max-width: 500px;
   overflow: hidden;
   justify-content: center;
 }
@@ -84,16 +90,12 @@ main > section > div:first-child {
 main > section > div:nth-of-type(2) {
   display: flex;
   overflow: hidden;
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 600px;
   justify-content: center;
 }
 
 main > section > div:nth-of-type(2) > img {
-  
   width: 100%;
-  /* object-position: center; */
-  /* object-fit: cover; */
 }
 
 main > section > div > div:nth-of-type(1) {
